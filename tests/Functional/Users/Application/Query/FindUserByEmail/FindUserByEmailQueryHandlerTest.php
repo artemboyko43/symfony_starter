@@ -23,7 +23,7 @@ class FindUserByEmailQueryHandlerTest extends WebTestCase
     }
 
     public function test_user_created_when_command_executed(): void
-    {g
+    {
         // arrange
         $referenceRepository = $this->databaseTool->loadFixtures([UserFixture::class])->getReferenceRepository();
 
